@@ -35,7 +35,8 @@ App always open in Search Dictionary Tab:
 View Favorites Tab:
 ```
    In View Favorites Tab when we search a word, It will check the word
-   in favourite browser storage.
+   in favourite browser storage based on word as well as word's type.
+
    When we click the heart icon of the word list card then it will be removed from the favourite list browser
    storage
 
