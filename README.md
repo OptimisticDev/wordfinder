@@ -24,10 +24,10 @@ You will also see any lint errors in the console.
 App always open in Search Dictionary Tab:
 ```
    In Search Dictionary Tab when we search a word first It will check the word
-   in browser storage bsed on word as well as word's type. If the word is not in browser storage, it will call the external
+   in browser storage based on word as well as word's type. If the word does not find in browser storage, it will call the external
    API and will append it to the top of the browser storage.
    
-   When we click the heart icon of the word list card then it will be added to the top of the favourite list browser
+   When we click the heart icon of the word list card then it will be added to the top of the favorite list browser
    storage
 
 ```
@@ -37,7 +37,7 @@ View Favorites Tab:
    In View Favorites Tab when we search a word, It will check the word
    in favourite browser storage based on word as well as word's type.
 
-   When we click the heart icon of the word list card then it will be removed from the favourite list browser
+   When we click the heart icon of the word list card then it will be removed from the favorite list browser
    storage
 
 ```
