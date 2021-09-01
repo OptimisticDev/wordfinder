@@ -47,12 +47,12 @@ const WordDefinationCard = ({
 };
 
 WordDefinationCard.propTypes = {
-  wordDefinations: PropTypes.array,
-  word: PropTypes.string,
-  pronunciation: PropTypes.string,
-  wordIndex: PropTypes.number,
-  viewMode: PropTypes.string,
-  changeEvenFunc: PropTypes.func,
+  wordDefinations: PropTypes.array.isRequired,
+  word: PropTypes.string.isRequired,
+  pronunciation: PropTypes.string.isRequired,
+  wordIndex: PropTypes.number.isRequired,
+  viewMode: PropTypes.string.isRequired,
+  changeEventFunc: PropTypes.func.isRequired,
 };
 
 export default React.memo(WordDefinationCard);

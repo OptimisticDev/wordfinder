@@ -15,10 +15,10 @@ SharedButtonComponent.defaultProps = {
 };
 
 SharedButtonComponent.propTypes = {
-  title: PropTypes.string,
+  title: PropTypes.string.isRequired,
   variant: PropTypes.string,
   viewMode: PropTypes.string,
-  changeFunc: PropTypes.func,
+  changeFunc: PropTypes.func.isRequired,
 };
 
 export default SharedButtonComponent;

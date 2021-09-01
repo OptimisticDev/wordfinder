@@ -37,12 +37,12 @@ const DefinationCard = ({
 };
 
 DefinationCard.propTypes = {
-  definition: PropTypes.string,
+  definition: PropTypes.string.isRequired,
   example: PropTypes.string,
   image_url: PropTypes.string,
-  type: PropTypes.string,
-  length: PropTypes.number,
-  index: PropTypes.number,
+  type: PropTypes.string.isRequired,
+  length: PropTypes.number.isRequired,
+  index: PropTypes.number.isRequired,
 };
 
 export default React.memo(DefinationCard);

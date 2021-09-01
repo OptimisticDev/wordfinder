@@ -13,8 +13,8 @@ const SearchComponent = ({ changeText, placeHolder }) => {
 };
 
 SearchComponent.propTypes = {
-  changeText: PropTypes.func,
-  placeHolder: PropTypes.string,
+  changeText: PropTypes.func.isRequired,
+  placeHolder: PropTypes.string.isRequired,
 };
 
 export default SearchComponent;

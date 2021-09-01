@@ -21,9 +21,9 @@ const WordDetailsCards = ({ wordDetails, viewMode, changeEventFunc }) => {
 };
 
 WordDetailsCards.propTypes = {
-  wordDetails: PropTypes.array,
-  viewMode: PropTypes.string,
-  changeEvenFunc: PropTypes.func,
+  wordDetails: PropTypes.array.isRequired,
+  viewMode: PropTypes.string.isRequired,
+  changeEventFunc: PropTypes.func.isRequired,
 };
 
 export default React.memo(WordDetailsCards);
